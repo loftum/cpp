@@ -13,7 +13,7 @@ int main()
     int otherValue = 43;
     int *pointer = &value; // pointer points to address of value
     int **doublePointer = &pointer; // doublePointer points to address of pointer
-    int (*get)(int) = getValue;
+    int (*get)(int) = getValue; // function pointer
 
     cout << value << endl; // 42
     cout << *pointer << endl; //42
