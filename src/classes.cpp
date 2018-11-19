@@ -32,4 +32,9 @@ int main()
 
     auto car2 = Car(43);
     cout << car2.getSpeed() << endl; // 43
+
+
+    // Different ways to new up car:
+    Car functionalForm (42);
+    Car assignment = 42;
 }
