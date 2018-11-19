@@ -35,6 +35,10 @@ int main()
 
 
     // Different ways to new up car:
-    Car functionalForm (42);
+    Car functionalForm (42);    
     Car assignment = 42;
+
+    Car *car3 = new Car(42);
+    delete car3;
+
 }
