@@ -23,7 +23,10 @@ class Polygon : public Shape
     }
 };
 
-class Rectangle: public Polygon // public makes
+// public = "the most accessible level" inherited members will have.
+// If set to protected, all inherited members will be "at most" protected.
+// (public members will be "downgraded" to protected)
+class Rectangle: public Polygon 
 {
   public:
     int area() // implicit virtual
